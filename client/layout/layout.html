@@ -1,0 +1,16 @@
+<template name="layout">
+    {{>navbar}}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="span2">
+                {{>yield 'categories'}}
+            </div>
+            <div class="span7 prodlist">
+                {{>yield 'products'}}
+            </div>
+            <div class="span3">
+                {{>yield 'cart'}}
+            </div>
+        </div>
+    </div>
+</template>

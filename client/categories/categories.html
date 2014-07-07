@@ -1,0 +1,15 @@
+<template name="categories">
+    <div class="page-header">
+        <h1>
+            <small>Categories</small>
+        </h1>
+    </div>
+    <ul class="nav nav-list">
+        {{#each Categories}}
+        <li class="nav-header">{{name}}</li>
+        {{#each SubCategories}}
+        <li><a href="/{{name}}">{{name}}</a></li>
+        {{/each}}
+        {{/each}}
+    </ul>
+</template>

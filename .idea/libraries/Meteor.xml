@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Meteor" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$USER_HOME$/.meteor/packages" />
+        <item url="file://$USER_HOME$/packages" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.meteor/packages" />
+      <root url="file://$USER_HOME$/packages" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
