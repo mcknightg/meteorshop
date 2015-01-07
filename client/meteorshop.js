@@ -9,11 +9,16 @@ Router.configure({
 });
 Router.map(function(){
     this.route('/','layout');
-    this.route('/products', {
+    this.route('products', {
+        layoutTemplate:'layout',
+        path:'/:name',
         data: function() {
+            console.log(this.params.name);
             Session.set('category',this.params.name);
         },
-        template:'layout',
-        path:'/:name'
+        template:'layout'
     });
+});
+Template.registerHelper('currency', function(num){
+  return '$' + Number(num).toFixed(2);
 });
