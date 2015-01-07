@@ -8,7 +8,7 @@ autopublish
 insecure
 jquery
 bootstrap
-iron-router
 accounts-password
 accounts-base
 accounts-ui
+iron:router
